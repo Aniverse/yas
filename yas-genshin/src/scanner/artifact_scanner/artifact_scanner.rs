@@ -141,7 +141,7 @@ impl GenshinArtifactScanner {
         let count = self.scanner_config.number;
         let item_name = "圣遗物";
 
-        let max_count = 1800;
+        let max_count = 2100;
         if count > 0 {
             return Ok(max_count.min(count));
         }
